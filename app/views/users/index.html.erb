@@ -1,0 +1,5 @@
+<%= link_to 'Create users', users_path, method: :post %>
+
+<% flash.each do |_, message| %>
+  <p><%= message %></p>
+<% end %>
